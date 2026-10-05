@@ -24,3 +24,7 @@ Files can be input/output via redirects:
 Input/output can be piped:
 
 `./crypt-lib -d aes-cbc dba8557e471eb1dcf508f29351035ae0 7b1c7e73cb8e504813d42737150418d7 < secret.bin | grep -ir "flag"`
+
+Contents (not raw bytes) of text files can be read:
+
+`cat enc.txt | ./crypt-lib -d aes 31323334353637383930313233343536`
