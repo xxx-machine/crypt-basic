@@ -2,7 +2,7 @@
 Custom implementations of Extended Vigenère and AES-128 ciphers.
 # Description
 Just a personal project for the purpose of exploring modern cryptography and becoming more familiar with C itself.
-All functions and maths behind the AES encryption process are self implemented. This is a command line utility which accepts input via arguments and files via stdin.din.
+All functions and maths behind the AES encryption process are self implemented. This is a command line utility which accepts input via arguments and files via stdin.
 I've implemented the Vigenère cipher with printable ASCII characters (32-127) as the output range. Although it can take any byte (0-255) as input, I've chosen to not
 accept file input in this mode as it is most suitable for text encryption.
 ## Features
